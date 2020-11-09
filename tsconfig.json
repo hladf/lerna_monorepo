@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.build.json",
+  "include": ["web/src"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@portalq/web/*": ["web/src/*"],
+      "@portalq/api": ["api/src"],
+      "@portalq/core": ["core/src"],
+      "@portalq/*": ["*/src"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

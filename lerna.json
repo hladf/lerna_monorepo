@@ -1,0 +1,13 @@
+{
+  "command": {
+    "run": {
+      "npmClient": "yarn"
+    }
+  },
+  "packages": [
+    "api",
+    "web",
+    "core"
+  ],
+  "version": "0.0.0"
+}
